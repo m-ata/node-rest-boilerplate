@@ -1,0 +1,45 @@
+{
+  "name": "nodejs-boilerplate",
+  "version": "1.0.0",
+  "description": "A REST based Node.js Boilerplate using Express.js & MongoDB",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "nodemon --ext ts,js,json --exec ts-node src/server.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-ata/node-rest-boilerplate.git"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "mongodb",
+    "jest"
+  ],
+  "author": "Muhammad Ata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-ata/node-rest-boilerplate/issues"
+  },
+  "homepage": "https://github.com/m-ata/node-rest-boilerplate#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.5.7",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "body-parser": "^1.20.2",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "tslib": "^2.6.2"
+  }
+}
